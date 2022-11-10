@@ -1,5 +1,36 @@
 /*Google Fonts: ('Cedarville Cursive', cursive) and ('Montserrat', sans-serif)*/
-
+.navbar {
+  background-color: #fff5ee !important;
+}
+.logo {
+  margin: 13px 0px 20px 20px;
+  border-radius: 10px;
+}
+.hero {
+  background-color: #fff5ee;
+  padding: 10px 30px 50px 30px;
+  margin-bottom: 20px;
+}
+.hero h1,
+h3,
+h5 {
+  text-align: center;
+}
 h1 {
+  font-size: 60px;
   font-family: "Cedarville Cursive", cursive;
+}
+h3,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 15px;
+}
+
+.social-media {
+  text-align: center;
 }
