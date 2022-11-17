@@ -32,6 +32,35 @@ h5 {
   font-size: 15px;
 }
 
+.responsive {
+  margin: 20px 20px;
+  padding: 20px;
+}
+.row {
+  margin: 15px 15px;
+  display: flex;
+}
+.container {
+  margin: 10px 10px;
+  padding: 10px;
+}
+.clock {
+  border-radius: 10px;
+}
+
 .social-media {
   text-align: center;
+}
+a:visited {
+  color: black;
+}
+
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+.design {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
