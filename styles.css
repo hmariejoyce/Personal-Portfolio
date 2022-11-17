@@ -1,5 +1,6 @@
 /*Google Fonts: ('Cedarville Cursive', cursive) and ('Montserrat', sans-serif)*/
-.navbar {
+.navbar,
+footer {
   background-color: #fff5ee !important;
 }
 .logo {
