@@ -33,19 +33,18 @@ h5 {
 }
 
 .responsive {
-  margin: 20px 20px;
-  padding: 20px;
+  margin: 0 auto;
+  display: center;
 }
+
 .row {
   margin: 15px 15px;
   display: flex;
 }
+
 .container {
   margin: 10px 10px;
   padding: 10px;
-}
-.clock {
-  border-radius: 10px;
 }
 
 .social-media {
