@@ -122,14 +122,26 @@ footer {
 #about {
   padding: 20px;
 }
+#hannah-background {
+  margin: 10px;
+}
 .hannah {
   border-radius: 80px;
   border-style: solid;
   border-color: black;
   border-width: 1.5px;
+  display: block;
+  margin: auto;
+}
+.hannah-description {
+  margin-top: 50px;
+  text-align: left;
 }
 .work {
   background-color: #ffe2cc;
   border-color: #ffe2cc;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.work a {
+  text-decoration: none;
 }
