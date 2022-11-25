@@ -53,6 +53,7 @@ img {
 
 #responsive-paragraph {
   margin-top: 40px;
+  text-align: right;
 }
 
 #featured {
@@ -61,6 +62,7 @@ img {
 }
 #clock-paragraph {
   margin-top: 60px;
+  text-align: left;
 }
 .clock {
   border-radius: 10px;
