@@ -26,7 +26,7 @@ h5 {
   font-family: "Montserrat", sans-serif;
 }
 h3 {
-  font-size: 25px;
+  font-size: 35px;
 }
 h5 {
   font-size: 15px;
@@ -52,16 +52,18 @@ img {
 }
 
 #responsive-paragraph {
-  margin-top: 40px;
-  text-align: right;
+  text-align: left;
 }
 
-#featured {
+.featured {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
+  border-style: double;
 }
 #clock-paragraph {
-  margin-top: 60px;
   text-align: left;
 }
 .clock {
@@ -136,7 +138,6 @@ footer {
   margin: auto;
 }
 .hannah-description {
-  margin-top: 10px;
   text-align: left;
 }
 .work {
