@@ -99,6 +99,10 @@ footer {
   h5 {
     display: none;
   }
+  .featured {
+    font-size: 25px;
+  }
+
   .row,
   .col-sm {
     margin: 0px 0px;
@@ -108,6 +112,7 @@ footer {
   #clock-paragraph {
     margin: 0px 0px;
     padding: 0px 0px;
+    text-align: center;
   }
   footer {
     margin-top: 10px;
