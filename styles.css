@@ -150,12 +150,17 @@ footer {
 }
 
 /*Portfolio Page*/
+
+.small-title-projects {
+  display: none;
+}
 .col-sm-6 {
   padding: 20px;
 }
 
 .col-sm-6 img {
   border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .title-projects {
   margin: 10px;
@@ -163,4 +168,20 @@ footer {
 .paragraph-projects {
   text-align: left;
   vertical-align: middle;
+}
+
+@media (max-width: 450px) {
+  #weatherappproject,
+  #worldclockproject,
+  #hikingwebsite,
+  #southdakotawebsite {
+    display: none;
+  }
+
+  .col-sm-6 {
+    padding: 20px;
+  }
+  .small-title-projects {
+    display: block;
+  }
 }
