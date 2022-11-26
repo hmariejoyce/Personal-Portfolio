@@ -136,7 +136,7 @@ footer {
   margin: auto;
 }
 .hannah-description {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: left;
 }
 .work {
@@ -149,7 +149,13 @@ footer {
 }
 
 /*Portfolio Page*/
+.col-sm-6 {
+  padding: 20px;
+}
 
+.col-sm-6 img {
+  border-radius: 10px;
+}
 .title-projects {
   margin: 10px;
 }
