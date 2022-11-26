@@ -153,6 +153,14 @@ footer {
 .work a {
   text-decoration: none;
 }
+@media (max-width: 450px) {
+  .about-hannah {
+    font-size: 25px;
+  }
+  .hannah-description {
+    text-align: center;
+  }
+}
 
 /*Portfolio Page*/
 
