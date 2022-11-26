@@ -201,3 +201,19 @@ footer {
     display: block;
   }
 }
+
+/*Contact Page*/
+.container {
+  text-align: center;
+  padding: 15px;
+}
+.connections {
+  text-align: center;
+}
+i {
+  font-size: 16px;
+}
+
+.schedule img {
+  max-width: 50%;
+}
