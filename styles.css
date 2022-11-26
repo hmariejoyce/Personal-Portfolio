@@ -41,7 +41,7 @@ h5 {
   display: flex;
   text-align: center;
 }
-.col-sm {
+.col-md-6 {
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -146,4 +146,13 @@ footer {
 }
 .work a {
   text-decoration: none;
+}
+
+/*Portfolio Page*/
+
+.title-projects {
+  margin: 10px;
+}
+.paragraph-projects {
+  text-align: left;
 }
