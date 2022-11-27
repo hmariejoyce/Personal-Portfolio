@@ -1,4 +1,10 @@
 /*Google Fonts: ('Cedarville Cursive', cursive) and ('Montserrat', sans-serif)*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar,
 footer {
   background-color: #fff5ee !important;
@@ -80,9 +86,9 @@ a:visited {
 }
 
 footer {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-top: auto;
   width: 100%;
+  padding-top: 5px;
 }
 
 .design {
