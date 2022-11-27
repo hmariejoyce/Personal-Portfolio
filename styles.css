@@ -140,9 +140,6 @@ footer {
 
 /*About Page*/
 
-#about-container {
-  margin: 20px;
-}
 .about-hannah {
   text-align: center;
   padding: 10px;
@@ -150,9 +147,7 @@ footer {
 #about {
   padding: 20px;
 }
-#hannah-background {
-  margin: 10px;
-}
+
 .hannah {
   border-radius: 5px;
   border-style: solid;
