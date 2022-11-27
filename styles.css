@@ -9,6 +9,10 @@ body {
 footer {
   background-color: #fff5ee !important;
 }
+.navbar-nav {
+  text-align: right;
+  margin-right: 15px;
+}
 .logo {
   margin: 13px 0px 20px 20px;
   border-radius: 10px;
