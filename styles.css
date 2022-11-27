@@ -183,8 +183,7 @@ footer {
 }
 @media (max-width: 450px) {
   .about {
-    display: block;
-    margin: 15px 15px;
+    margin: 5px 5px;
   }
   .about-hannah {
     font-size: 20px;
