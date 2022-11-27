@@ -153,11 +153,20 @@ footer {
   text-align: left;
 }
 .work {
-  background-color: #ffe2cc;
-  border-color: #ffe2cc;
+  color: black;
+  background-color: #fff5ee;
+  border-color: #fff5ee;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+.work:hover {
+  padding: 20px;
+  transition: ease-in-out;
 }
 .work a {
+  text-decoration: none;
+}
+.work a:hover {
   text-decoration: none;
 }
 @media (max-width: 450px) {
