@@ -88,6 +88,8 @@ img {
 .social-media {
   text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+.social-media a {
   color: black;
 }
 
