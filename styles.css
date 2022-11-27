@@ -88,6 +88,7 @@ img {
 .social-media {
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 a:visited {
@@ -244,8 +245,14 @@ i {
 .email i:hover {
   font-size: 40px;
 }
+.linkedin a {
+  color: black;
+}
 .linkedin i:hover {
   font-size: 40px;
+}
+.shecodes a {
+  color: black;
 }
 .shecodes i:hover {
   font-size: 40px;
