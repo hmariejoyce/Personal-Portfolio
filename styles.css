@@ -50,18 +50,21 @@ a:visited {
 .banner {
   background-color: #dec2ba;
 }
-.hero h1,
-h3,
+
 h5 {
   text-align: center;
   color: #dec2ba;
-}
-h1 {
-  font-size: 60px;
   font-family: "Over the Rainbow", cursive;
 }
+h1 {
+  margin-top: -60px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #dec2ba;
+  text-align: center;
+}
 
-h3 {
+.hero h3 {
   margin-top: -70px;
   font-size: 35px;
 }
@@ -236,10 +239,13 @@ footer {
   border-radius: 10px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-.projectHeadings {
-  margin: 10px;
+
+.title-projects {
+  color: black;
+  font-size: 50px;
   font-family: "Over the Rainbow", cursive;
 }
+
 .paragraph-projects {
   text-align: left;
   vertical-align: middle;
