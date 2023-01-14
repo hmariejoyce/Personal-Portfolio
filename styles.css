@@ -106,17 +106,15 @@ img {
   text-align: center;
   background-color: black;
 }
-.featuredproject {
-  background-color: #dec2ba;
-  padding: 15px 10px;
-  border-radius: 10px;
-}
 
 #clock-paragraph {
   text-align: left;
 }
 .clock {
   border-radius: 10px;
+  border-color: #dec2ba;
+  border-width: 8px;
+  border-style: solid;
 }
 .projectHeadings {
   color: black;
