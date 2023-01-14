@@ -174,10 +174,16 @@ footer {
 }
 /*About Page*/
 
-.about-hannah {
+h2 {
+  color: black;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 10px;
+  letter-spacing: 5px;
+  background-color: #dec2ba;
 }
+
 #about {
   padding: 20px;
 }
@@ -195,8 +201,8 @@ footer {
 }
 .work {
   color: black;
-  background-color: #fff5ee;
-  border-color: #fff5ee;
+  background-color: #dec2ba;
+  border-color: #dec2ba;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px;
 }
@@ -228,6 +234,13 @@ footer {
 
 /*Portfolio Page*/
 
+.portfolioTitle {
+  color: black;
+  font-size: 40px;
+  font-family: "Over the Rainbow", cursive;
+  text-align: center;
+}
+
 .small-title-projects {
   display: none;
 }
@@ -242,7 +255,7 @@ footer {
 
 .title-projects {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Over the Rainbow", cursive;
 }
 
