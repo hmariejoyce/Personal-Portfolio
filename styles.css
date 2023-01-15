@@ -10,9 +10,6 @@ footer {
   background-color: black !important;
 }
 
-a:visited {
-  color: #dec2ba;
-}
 .navbar-expand-lg .navbar-nav .nav-link {
   color: white;
   padding: 20px 20px 5px 20px;
@@ -144,6 +141,10 @@ footer {
 .design {
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+a:visited {
+  color: #dec2ba;
 }
 
 @media (max-width: 450px) {
