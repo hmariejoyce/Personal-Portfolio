@@ -149,7 +149,8 @@ a:visited {
 
 @media (max-width: 450px) {
   #HMJLogo {
-    width: 200px;
+    width: 300px;
+    padding-top: 10px;
   }
   h1 {
     font-size: 15px;
