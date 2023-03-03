@@ -104,8 +104,8 @@ img {
   background-color: black;
 }
 
-#clock-paragraph {
-  text-align: left;
+#react-paragraph {
+  text-align: right;
 }
 .clock {
   border-radius: 10px;
