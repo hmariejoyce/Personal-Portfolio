@@ -104,14 +104,12 @@ img {
   background-color: black;
 }
 
-#react-paragraph {
-  text-align: right;
+.react-paragraph {
+  text-align: left;
 }
-.clock {
+.reactweatherapp {
   border-radius: 10px;
-  border-color: #dec2ba;
-  border-width: 8px;
-  border-style: solid;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .projectHeadings {
   color: black;
