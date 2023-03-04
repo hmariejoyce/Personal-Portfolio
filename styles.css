@@ -227,7 +227,7 @@ h2 {
 }
 @media (max-width: 450px) {
   .about {
-    margin: 5px 5px;
+    margin: 2px 2px;
   }
   .about-hannah {
     font-size: 20px;
@@ -235,7 +235,6 @@ h2 {
   .hannah-description {
     text-align: left;
     padding: 10px;
-    margin: 5px 5px;
   }
   .hannah {
     width: 50%;
