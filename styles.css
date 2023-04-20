@@ -89,7 +89,7 @@ img {
   height: auto;
 }
 
-#responsive-paragraph {
+.introduction {
   text-align: left;
 }
 
@@ -115,7 +115,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   color: black;
   opacity: 0.3;
   text-transform: uppercase;
@@ -243,7 +243,6 @@ footer a:visited {
     padding: 0px 0px;
   }
 
-  #responsive-paragraph,
   #clock-paragraph {
     margin: 0px 0px;
     padding: 0px 0px;
@@ -256,7 +255,7 @@ footer a:visited {
 }
 /*About Page*/
 
-.about-hannah {
+.mini-header {
   color: black;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
