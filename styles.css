@@ -39,7 +39,7 @@ footer {
   padding: 0px 0px;
 }
 #HMJLogo {
-  max-width: 500px;
+  max-width: 400px;
   display: block;
   margin: 0 auto;
   margin-top: -80px;
@@ -93,43 +93,80 @@ img {
   text-align: left;
 }
 
-/*Middle-section*/
-.middle-section {
-  background-color: #dec2ba20;
+/*Homepage-Middle-section*/
+.technology-section {
+  background-color: #dec2ba4a;
   padding: 40px 40px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.middle-section li {
+.technology-section li {
   list-style: none;
 }
+
 .grid {
   display: grid;
   grid-gap: 64px;
-  grid-template-columns: 1fr 1fr;
-}
-.featured {
-  font-size: 30px;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 5px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  text-align: center;
-  background-color: black;
 }
 
-.react-paragraph {
-  text-align: left;
-}
-.reactweatherapp {
-  border-radius: 10px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-.projectHeadings {
+/*Homepage-Featured-section*/
+
+.featuredproject h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
   color: black;
-  font-size: 40px;
-  font-family: "Over the Rainbow", cursive;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
 }
+
+.featuredproject h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: black;
+  margin: 0;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+.featured {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px;
+}
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
+  padding: 0px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.button {
+  display: block;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #dec2ba;
+  text-decoration: none;
+}
+
+/*Footer-section*/
 
 .social-media {
   text-align: center;
@@ -156,8 +193,22 @@ footer {
   padding-bottom: 0;
 }
 
-a:visited {
+footer a:visited {
   color: #dec2ba;
+}
+
+@media (max-width: 1000px) {
+  .featured {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+  }
+}
+
+@media (max-width: 780px) {
+  .featured {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -175,8 +226,14 @@ a:visited {
   h5 {
     display: none;
   }
+
+  .technology-section {
+    padding: 20px 20px;
+    grid-template-columns: 1fr;
+  }
   .featured {
-    font-size: 25px;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
   }
 
   .row,
@@ -198,7 +255,7 @@ a:visited {
 }
 /*About Page*/
 
-h2 {
+.about-hannah {
   color: black;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
