@@ -84,13 +84,27 @@ h5 {
   margin-bottom: 30px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+main {
+  padding: 60px;
+}
+main .col {
+  justify-content: right;
+}
+
+.introduction-picture {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  display: block;
+  margin: auto;
+  width: 325px;
 }
 
 .introduction {
   text-align: left;
+  font-size: 40px;
+  font-family: "Over the Rainbow", cursive;
 }
 
 /*Homepage-Middle-section*/
