@@ -8,6 +8,7 @@ body {
 .container {
   display: block;
   margin: 0px auto;
+  max-width: 1700px;
 }
 .navbar,
 footer {
@@ -120,13 +121,23 @@ main .col {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+.technologies h3 {
+  font-weight: 550;
+}
+.tools h3 {
+  font-weight: 550;
+}
 .technology-section {
+  background-color: white;
+}
+
+.technology-tools {
   display: block;
   margin: 0 auto;
-  max-width: 1500px;
   padding: 120px 50px;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: white;
+  max-width: 1400px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .technology-section li {
@@ -143,6 +154,7 @@ main .col {
 .featuredproject {
   background-color: #f6eeec;
   padding: 80px 40px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .featuredproject h3 {
@@ -190,8 +202,8 @@ main .col {
 
 .button {
   display: block;
-  background-color: black;
-  color: white;
+  background-color: #dec2ba;
+  color: black;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -202,6 +214,10 @@ main .col {
   text-decoration: none;
 }
 
+.card-body a:hover {
+  color: black;
+  font-weight: 900;
+}
 /*Footer-section*/
 
 .social-media {
@@ -220,7 +236,7 @@ main .col {
 footer {
   margin-top: auto;
   width: 100%;
-  padding-top: 5px;
+  padding: 15px 15px;
   font-size: 12px;
 }
 
@@ -238,7 +254,7 @@ footer a:visited {
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
   }
-  .technology-section {
+  .technology-tools {
     padding: 20px 20px;
     grid-template-columns: 1fr;
   }
@@ -276,7 +292,7 @@ footer a:visited {
     display: none;
   }
 
-  .technology-section {
+  .technology-tools {
     padding: 20px 20px;
     grid-template-columns: 1fr;
   }
@@ -364,6 +380,15 @@ footer a:visited {
 
 /*Portfolio Page*/
 
+.portfolio-container,
+.about-container,
+.contact-container {
+  background-color: white;
+  padding: 40px 40px;
+}
+.mini-header {
+  margin-bottom: 0;
+}
 .portfolioTitle {
   color: black;
   font-size: 40px;
