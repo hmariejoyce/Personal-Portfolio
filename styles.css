@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 .navbar,
@@ -34,8 +35,9 @@ footer {
   margin: -20px 0px 0px 20px;
   border-radius: 10px;
 }
+
 .hero {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding: 0px 0px;
 }
 #HMJLogo {
@@ -52,6 +54,8 @@ h5 {
   text-align: center;
   color: #dec2ba;
   font-family: "Over the Rainbow", cursive;
+  font-size: 13px;
+  margin-bottom: 0;
 }
 h1 {
   margin-top: -60px;
@@ -65,15 +69,10 @@ h1 {
   margin-top: -70px;
   font-size: 35px;
 }
-h5 {
-  font-size: 13px;
-  margin-bottom: 30px;
-}
 
 .container {
   display: block;
   margin: 0px auto;
-  font-family: "Montserrat", sans-serif;
 }
 .row {
   display: flex;
@@ -86,6 +85,7 @@ h5 {
 
 main {
   padding: 60px;
+  background-color: white;
 }
 main .col {
   justify-content: right;
@@ -107,11 +107,24 @@ main .col {
   font-family: "Over the Rainbow", cursive;
 }
 
-/*Homepage-Middle-section*/
+/*Homepage-Technology-section*/
+
+.computer {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  display: block;
+  margin: auto;
+  width: 250px;
+}
 .technology-section {
-  background-color: #dec2ba4a;
-  padding: 40px 40px;
-  grid-template-columns: 1fr 1fr;
+  display: block;
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 120px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
 }
 
 .technology-section li {
@@ -124,6 +137,11 @@ main .col {
 }
 
 /*Homepage-Featured-section*/
+
+.featuredproject {
+  background-color: #f6eeec;
+  padding: 80px 40px;
+}
 
 .featuredproject h3 {
   font-weight: 700;
@@ -157,6 +175,7 @@ main .col {
 .card {
   background-color: white;
   margin: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card-header.grid {
   grid-gap: 0;
@@ -169,7 +188,8 @@ main .col {
 
 .button {
   display: block;
-  color: black;
+  background-color: black;
+  color: white;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -177,7 +197,6 @@ main .col {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #dec2ba;
   text-decoration: none;
 }
 
@@ -192,7 +211,7 @@ main .col {
   color: #dec2ba;
 }
 
-a:visited {
+.social-media a:visited {
   color: black;
 }
 
