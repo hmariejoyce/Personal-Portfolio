@@ -5,7 +5,10 @@ body {
   flex-direction: column;
   background-color: black;
 }
-
+.container {
+  display: block;
+  margin: 0px auto;
+}
 .navbar,
 footer {
   background-color: black !important;
@@ -70,10 +73,6 @@ h1 {
   font-size: 35px;
 }
 
-.container {
-  display: block;
-  margin: 0px auto;
-}
 .row {
   display: flex;
   text-align: center;
@@ -99,6 +98,7 @@ main .col {
   display: block;
   margin: auto;
   width: 325px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .introduction {
@@ -117,6 +117,8 @@ main .col {
   display: block;
   margin: auto;
   width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .technology-section {
   display: block;
@@ -212,7 +214,7 @@ main .col {
 }
 
 .social-media a:visited {
-  color: black;
+  color: #dec2ba;
 }
 
 footer {
@@ -235,6 +237,19 @@ footer a:visited {
   .featured {
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
+  }
+  .technology-section {
+    padding: 20px 20px;
+    grid-template-columns: 1fr;
+  }
+  .introduction-picture {
+    max-width: 250px;
+  }
+  .introduction {
+    font-size: 30px;
+  }
+  .computer {
+    max-width: 175px;
   }
 }
 
