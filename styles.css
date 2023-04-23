@@ -177,7 +177,8 @@ main .col {
   margin: 0;
 }
 
-.img-responsive {
+.img-responsive,
+.resume {
   width: 100%;
   display: block;
 }
@@ -482,4 +483,19 @@ i {
   .secondary-contact {
     display: inline;
   }
+}
+
+/*Resume*/
+
+.download {
+  color: dimgray;
+  font-size: 15px;
+}
+.resume {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 10px;
 }
