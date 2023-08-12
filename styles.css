@@ -488,8 +488,7 @@ i {
 /*Resume*/
 
 .download {
-  color: dimgray;
-  font-size: 15px;
+  display: none;
 }
 .resume {
   max-width: 700px;
@@ -498,4 +497,8 @@ i {
   border-style: solid;
   border-color: dimgray;
   border-width: 10px;
+}
+#resumepdf {
+  width: 85%;
+  height: 975px;
 }
